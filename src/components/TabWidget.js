@@ -7,8 +7,8 @@ const TabsWidget = () => {
   return (
     <div className="w-full p-4 flex  rounded-lg shadow-md text-white" style={{ backgroundColor: '#363C43', color: '#FFFFFF' , boxShadow:'6px 8px 7px -1px black'}}>
       <div className='flex flex-col mx-2 items-center justify-between h-40'>
-         <img className='w-96' src={Question} />
-         <img className='w-96' src={Frame} />
+         <img className='w-96' src={Question} alt='' />
+         <img className='w-96' src={Frame} alt='' />
       </div>
       <div className='flex flex-col'>
       <div className="flex border-b border-gray-700 bg-black rounded-[15px] items-center justify-evenly py-1">

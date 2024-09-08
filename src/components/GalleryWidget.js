@@ -15,8 +15,8 @@ const GalleryWidget = () => {
   return (
     <div className="w-full flex flex-row p-4 rounded-lg shadow-md mt-4 text-white " style={{ backgroundColor: '#363C43', color: '#FFFFFF', boxShadow: '6px 8px 7px -1px black'}}>
       <div className='flex flex-col mx-2 items-center justify-between h-40'>
-         <img className='w-40' src={Question} />
-         <img className='w-96' src={Frame} />
+         <img className='w-40' src={Question} alt=''/>
+         <img className='w-96' src={Frame} alt='' />
       </div>
       <div className="flex flex-col w-custom-width">
       <div className=" flex flex-row  items-center justify-around">
